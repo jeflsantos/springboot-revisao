@@ -1,4 +1,4 @@
-package academy.devdojo.springbootrevisao;
+package academy.devdojo.springbootrevisao.util;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

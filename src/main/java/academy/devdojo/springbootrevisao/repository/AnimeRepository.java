@@ -9,5 +9,7 @@ import academy.devdojo.springbootrevisao.domain.Anime;
 
 @Repository
 public interface AnimeRepository extends JpaRepository<Anime, Long> {
+
+    List<Anime> findByName(String name);
 	
 }
